@@ -51,7 +51,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Command Line Interface\CommandLineInterface.cs" />
-    <Compile Include="Web Interface\VanillaHttpEngine.cs" />
+    <Compile Include="Web Interface\WebInterfaceEngine.cs" />
     <Compile Include="webdav\Base36.cs" />
     <Compile Include="webdav\Folder.cs" />
     <Compile Include="webdav\HierarchyItem.cs" />

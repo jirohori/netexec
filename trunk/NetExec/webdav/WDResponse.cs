@@ -3,7 +3,7 @@ using System.Net;
 using System.Text;
 using ITHit.WebDAV.Server;
 
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {
     public class WDResponse : IResponse
     {

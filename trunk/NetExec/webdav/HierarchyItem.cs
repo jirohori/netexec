@@ -4,7 +4,7 @@ using System.IO;
 using ITHit.WebDAV.Server;
 using ITHit.WebDAV.Server.Response;
 
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {
     public abstract class HierarchyItem : IHierarchyItem, ILock
     {

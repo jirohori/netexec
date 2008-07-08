@@ -5,8 +5,7 @@ using System.Threading;
 using System.Net;
 using System.Diagnostics;
 using System.Security.Principal;
-using WebDAVServer.FileSystemListenerService;
-namespace NetDrive
+namespace NetExec
 {
     class HttpService
     {

@@ -5,7 +5,7 @@ using Plossum.CommandLine;
 using System.Net;
 using System.Diagnostics;
 
-namespace NetDrive
+namespace NetExec
 {
     class Program
     {
