@@ -3,7 +3,7 @@ using System.Net;
 using ITHit.WebDAV.Server;
 using ITHit.WebDAV.Server.Response;
 
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {
     public class Resource : HierarchyItem, IResource
     {

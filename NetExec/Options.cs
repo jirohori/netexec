@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Plossum.CommandLine;
 
-namespace NetDrive
+namespace NetExec
 {
     [CommandLineManager(ApplicationName = "NetDrive", Copyright = "Mozilla Public License 1.1")]
     public class Options

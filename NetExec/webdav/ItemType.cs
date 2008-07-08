@@ -1,4 +1,4 @@
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {
 	public enum ItemType
 	{

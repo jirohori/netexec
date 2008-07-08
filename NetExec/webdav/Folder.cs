@@ -4,7 +4,7 @@ using System.IO;
 using ITHit.WebDAV.Server;
 using ITHit.WebDAV.Server.Response;
 
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {
     public class Folder : HierarchyItem, IFolder, IFolderLock
     {

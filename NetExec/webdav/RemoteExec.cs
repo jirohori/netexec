@@ -6,7 +6,7 @@ using ITHit.WebDAV.Server;
 using ITHit.WebDAV.Server.Response;
 using System;
 using System.Text;
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {   
     public class RemoteExec : HierarchyItem, IResource
     {
@@ -52,12 +52,12 @@ namespace WebDAVServer.FileSystemListenerService
 
         // 
         static object GlobalIdSyncRoot = new object();
-        static Base36.Base36 GlobalId = 0;
+        static Base36 GlobalId = 0;
         //
 
         DateTime _modified = DateTime.Now;
         byte[] content = new byte[] { };
-        Base36.Base36 _id = 0;
+        Base36 _id = 0;
        
 
         public new string Name

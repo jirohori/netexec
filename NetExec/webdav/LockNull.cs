@@ -2,7 +2,7 @@ using System.IO;
 using ITHit.WebDAV.Server;
 using ITHit.WebDAV.Server.Response;
 
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {
 	public class LockNull : HierarchyItem, ILockNull
 	{

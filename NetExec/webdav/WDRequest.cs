@@ -7,7 +7,7 @@ using System.Security.Principal;
 using System.Text;
 using ITHit.WebDAV.Server;
 
-namespace WebDAVServer.FileSystemListenerService
+namespace NetExec
 {
     class WDRequest : Request
     {
@@ -29,8 +29,8 @@ namespace WebDAVServer.FileSystemListenerService
             get
             {
 
-                 
-                string uriPrefix = "http://+:" + NetDrive.Program.Options.Port + "/";
+
+                string uriPrefix = "http://+:" + NetExec.Program.Options.Port + "/";
                 
                 int i = uriPrefix.IndexOf("://");
                 i = uriPrefix.IndexOf('/', i + 3);

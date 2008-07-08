@@ -1,9 +1,8 @@
 using System;
 using System.Text;
 
-namespace Base36
+namespace NetExec
 {
-
     public class InvalidBase36NumberException : Exception
     {
         public InvalidBase36NumberException(string val)
@@ -34,11 +33,7 @@ namespace Base36
             : base(val.ToString())
         {
         }
-    }
-
-    
-
-
+    }    
 
 	/// <summary>
 	/// Class representing a Base36 number
