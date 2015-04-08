@@ -6,12 +6,13 @@ netexec – Remote Command Execution
 The command shell is a method of directly communicating with a remote system via an instruction, or command-line interface. Existing remote command execution tools besides being difficult to set up, require client software to be installed on the remote systems that you wish to access.
 netexec allows you to execute a command on a remote machine without physically logging in to that machine. Full interactivity for console applications is provided. No client software installation is required.
 This tool helps system administrators perform housekeeping tasks and helps security auditors to execute programs on remote systems as the direct access to those are not always possible.
+
 netexec's uses include
 
-     launching command shells to remote systems
-     remote copy capabilities to specified directories
-     enabling tools and applications to display information about remote systems
-     enabling upload and download of files at runtime
+      launching command shells to remote systems
+      remote copy capabilities to specified directories
+      enabling tools and applications to display information about remote systems
+      enabling upload and download of files at runtime
 
 Installation
 
@@ -20,15 +21,14 @@ Just copy netexec onto your executable path. Executing "netexec" with no command
 Usage
 
 The syntax is straightforward and easy to learn, making remote command-line administration and security auditing much more efficient.
-Usage : 
 
-    netexec [options..] < program > [arguments]
+    Usage:            netexec [options..] < program > [arguments]
 
     <computer>        Remote computer name or IP address. This is a mandatory 
                       parameter.
 
     -u <user>         Username for logging on remote computer. Logs in with 
-                  current credentials, if not supplied.
+                      current credentials, if not supplied.
 
     -p <password>     Password for logging on remote computer. Prompts for 
                       password, if not supplied.
