@@ -1,5 +1,5 @@
 # netexec
-Automatically exported from code.google.com/p/netexec
+Automatically exported from code.google.com/p/netexec (original source code developed by james.wren on Jul 8, 2008)
 
 netexec – Remote Command Execution
 
