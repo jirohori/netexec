@@ -1,0 +1,3 @@
+I'm going for a dependency free combination of telnet, webdav and web interface (over one port to cross firewalls).  It can be launched easily and secured with out having to learn about Windows Security.  I am trying to solve a common Windows development problem of copying files and running a few commands without messing with a GUI.
+
+Currently WebDav support is provided by ITHIT WebDav Server (a commercial product)
