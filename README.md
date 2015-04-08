@@ -47,18 +47,30 @@ By pressing the Ctrl+C key combination, the runtime menu will appear as shown be
     Ctrl+C:Terminate process
 
 You can enclose applications that have spaces in their name with quotation marks
-e.g. netexec 10.10.8.7 "c:\long name\application.exe".
+e.g. 
+
+   netexec 10.10.8.7 "c:\long name\application.exe".
+
 Input is only passed to the remote system when you press the Enter key. Typing Ctrl-C terminates the remote process. Alternatively, you could also write the above command in the following manner:
-netexec 10.10.8.7 application.exe -dir "c:\long name"
-If you fail to specify a user name, the remote process runs with the credentials of the logged-in user. Note that the password is transmitted in clear text to the remote system. Arguments supplied to netexec are case sensitive.netexec sets %SystemRoot%\system32\ as the default directory on the remote computer.
+
+   netexec 10.10.8.7 application.exe -dir "c:\long name"
+
+If you fail to specify a user name, the remote process runs with the credentials of the logged-in user. Note that the password is transmitted in clear text to the remote system. Arguments supplied to netexec are case sensitive. netexec sets %SystemRoot%\system32\ as the default directory on the remote computer.
 
 Examples
 To launch an interactive command prompt on 10.10.8.7 using administrator credentials:
+
     netexec 10.10.8.7 -u administrator cmd
+
 To upload the file a.exe on the remote system, with the directory on the remote system set to c:\myprogram\, type
+
     netexec 10.10.8.7 -u administrator a.exe -dir c:\myprogram\
+
 NOTE: Ensure that the file a.exe exists on the remote system
 To copy and execute the application myexe.exe on a remote system without leaving a copy of the application on the remote machine,
+
     netexec 10.10.8.7 -u administrator -cp myexe.exe
+
 To connect to a remote host by the name "foo" with the currently logged in user's credentials and obtain a shell,
+
     netexec foo
